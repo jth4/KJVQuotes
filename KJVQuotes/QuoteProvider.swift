@@ -46,7 +46,7 @@ struct QuoteProvider {
         
         
         
-        // ********************************************************************************************************************************** Total # of verses: 154
+        // ********************************************************************************************************************************** Total # of verses: 175
         
         
         
@@ -253,7 +253,49 @@ struct QuoteProvider {
         
         "Cease, my son, to hear the instruction that causeth to err from the words of knowledge.  \n \nProverbs 19:27",
         
+        "The spirit of man is the candle of the Lord, searching all the inward parts of the belly.  \n \nProverbs 20:27",
+        
+        "Every way of a man is right in his own eyes: but the Lord pondereth the hearts.  \n \nProverbs 21:2",
+        
+        "It is better to dwell in the wilderness, than with a contentious and an angry woman.  \n \nProverbs 21:19",
+        
+        "The desire of the slothful killeth him; for his hands refuse to labour.  \n \nProverbs 21:25",
+        
+        "A false witness shall perish: but the man that heareth speaketh constantly.  \n \nProverbs 21:28",
+        
+        "The horse is prepared against the day of battle: but safety is of the Lord.  \n \nProverbs 21:31",
+        
         "Train up a child in the way he should go: and when he is old, he will not depart from it.  \n \nProverbs 22:6",
+        
+        "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.  \n \nProverbs 27:17",
+        
+        "Better is the poor that walketh in his uprightness, than he that is perverse in his ways, though he be rich.  \n \nProverbs 27:6",
+        
+        "He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.  \n \nProverbs 28:13",
+        
+        "A fool uttereth all his mind: but a wise man keepeth it in till afterwards.  \n \nProverbs 29:11",
+        
+        "Every word of God is pure: he is a shield unto them that put their trust in him.  \n \nProverbs 30:5",
+        
+        "Remove far from me vanity and lies: give me neither poverty nor riches; feed me with food convenient for me:  \n \nProverbs 30:8",
+        
+        "There is a generation that are pure in their own eyes, and yet is not washed from their filthiness.  \n \nProverbs 30:12",
+        
+        "She openeth her mouth with wisdom; and in her tongue is the law of kindness.  \n \nProverbs 31:26",
+        
+        "Give her of the fruit of her hands; and let her own works praise her in the gates.  \n \nProverbs 31:31",
+        
+        
+        
+        
+        
+        
+        
+        // // MARK: Ecclesiastes // //
+        
+        "All things are full of labour; man cannot utter it: the eye is not satisfied with seeing, nor the ear filled with hearing.  \n \nEcclesiastes 1:8",
+        
+        
         
         
         
@@ -319,6 +361,14 @@ struct QuoteProvider {
         
         "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.  \n \nMatthew 5:44",
         
+        "And when thou prayest, thou shalt not be as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men.  Verily I say unto you, They have their reward.  \n \nMatthew 6:5",
+        
+        "But when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking.  Be not ye therefore like unto them: for your Father knoweth what things ye have need of, before ye ask him.  \n \nMatthew 6:7-8",
+        
+        "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.  \n \nMatthew 6:8",
+        
+        "For if ye forgive men their trespasses, your heavenly Father will also forgive you:  \n \nMatthew 6:14",
+        
         "But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal.  \n \nMatthew 6:20",
         
         "But seek ye first the kingdom of God, and his righteousness; and all these things shall be added unto you.  \n \nMatthew 6:33",
@@ -326,6 +376,8 @@ struct QuoteProvider {
         "Judge not, that ye be not judged.  For with what judgment ye judge, ye shall be judged: and with what measure ye mete, it shall be measured to you again.  \n \nMatthew 7:1-2",
         
         "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.  \n \nMatthew 7:7",
+        
+        "A good tree cannot bring forth evil fruit, neither can a corrup tree bring forth good fruit.  \n \nMatthew 7:18",
         
         "The young man saith unto him, All these things have I kept from my youth up: what lack I yet?  \n \nMatthew 19:20",
         

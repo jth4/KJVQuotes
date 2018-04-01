@@ -46,7 +46,7 @@ struct QuoteProvider {
         
         
         
-        // ********************************************************************************************************************************** Total # of verses: 175
+        // ********************************************************************************************************************************** Total # of verses: 210
         
         
         
@@ -115,6 +115,8 @@ struct QuoteProvider {
         
         "Be of good courage, and let us behave ourselves valiantly for our people, and for the cities of our God: and let the Lord do that which is good in his sight.  \n \n1 Chronicles 19:13",
         
+        "Now set your heart and your soul to seek the Lord your God; arise therefore, and build ye the sanctuary of the Lord God, to bring the ark of the covenant of the Lord, and the holy vessels of God, into the house that is to be built to the name of the Lord.  1 \n \n1 Chronicles 22:19",
+        
         
         
         
@@ -122,6 +124,8 @@ struct QuoteProvider {
         
         
         // // MARK: Job // //
+        
+        "What time they wax warm, they vanish: when it is hot, they are consumed out of their place.  \n \nJob 6:17",
         
         "If iniquity be in thine hand, put it far away, and let not wickedness dwell in thy tabernacles.  \n \nJob 11:14",
         
@@ -177,11 +181,51 @@ struct QuoteProvider {
         
         "Wait on the Lord: be of good courage, and he shall strengthen thine heart: wait, I say, on the Lord.  \n \nPsalm 27:14",
         
+        "Let them shout for joy, and be glad, that favour my righteous cause: yea, let them say continually, Let the Lord be magnified which hath pleasure in the prosperity of his servant.  \n \nPsalm 25:27",
+        
+        "Thy mercy, O Lord, is in the heavens; and thy faithfulness reacheth unto the clouds.  \n \nPsalm 36:5",
+        
         "For with thee is the fountain of life: in thy light shall we see light.  \n \nPsalm 36:9",
         
         "O continue thy lovingkindness unto them that know thee; and thy righteousness to the upright in heart.  \n \nPsalm 36:10",
         
         "Let not the foot of pride come against me, and let not the hand of the wicked remove me.  \n \nPsalm 36:11",
+        
+        "Fret not thyself because of evildoers, neither be thou envious against the workers of iniquity.  \n \nPsalm 37:1",
+        
+        "Trust in the Lord, and do good; so shalt thou dwell in the land, and verily thou shalt be fed.  \n \nPsalm 37:3",
+        
+        "Commit thy way unto the Lord; trust also in him; and he shall bring it to pass.  \n \nPsalm 37:5",
+        
+        "Cease from anger, and forsake wrath: fret not thyself in any wise to do evil.  \n \nPsalm 37:8",
+        
+        "The steps of a good man are ordered by the Lord: and he delighteth in his way.  \n \nPsalm 37:23",
+        
+        "Though he fall, he shall not be utterly cast down: for the Lord upholdeth him with his hand.  \n \nPsalm 37:24",
+        
+        "I have been young, and now am old; yet have I not seen the righteous forsaken, nor his seed begging bread.  \n \nPsalm 37:25",
+        
+        "The law of his God is in his heart; none of his steps shall slide.  \n \nPsalm 37:31",
+        
+        "Wait on the Lord, and keep his way, and he shall exalt thee to inherit the land: when the wicked are cut off, thou shalt see it.  \n \nPsalm 37:34",
+        
+        "Mark the perfect man, and behold the upright: for the end of that man is peace.  \n \nPsalm 37:37",
+        
+        "But the salvation of the righteous is of the Lord: he is their strength in the time of trouble.  \n \nPsalm 37:39",
+        
+        "Thus I was as a man that heareth not, and in whose mouth are no reproofs.  \n \nPsalm 38:14",
+        
+        "Behold, thou hast made my days as an handbreadth; and mine age is as nothing before thee: verily every man at his best state is altogether vanity.  Selah.  \n \nPsalm 39:5",
+        
+        "And now, Lord, what wait I for? my hope is in thee.  \n \nPsalm 39:7",
+        
+        "Deliver me from all my transgressions: make me not the reproach of the foolish.  \n \nPsalm 39:8",
+        
+        "I was dumb, I opened not my mouth; because thou didst it.  Remove thy stroke away from me: I am consumed by the blow of thine hand.  \n \nPsalm 39:9-10",
+        
+        "I have not hid thy righteousness within my heart; I have declared thy faithfulness and thy salvation: I have not concealed thy lovingkindess and thy truth from the great congregation.  \n \nPsalm 40:10",
+        
+        "Withhold not thou thy tender mercies from me, O Lord: let thy lovingkindess and thy truth continually preserve me.  \n \nPsalm 40:11",
         
         "So teach us to number our days, that we may apply our hearts unto wisdom.  \n \nPsalm 90:12",
         
@@ -359,6 +403,8 @@ struct QuoteProvider {
         
         // // MARK: Matthew // //
         
+        "And they straightway left their nets, and followed him.  \n \nMatthew 4:20",
+        
         "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.  \n \nMatthew 5:44",
         
         "And when thou prayest, thou shalt not be as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men.  Verily I say unto you, They have their reward.  \n \nMatthew 6:5",
@@ -377,7 +423,7 @@ struct QuoteProvider {
         
         "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.  \n \nMatthew 7:7",
         
-        "A good tree cannot bring forth evil fruit, neither can a corrup tree bring forth good fruit.  \n \nMatthew 7:18",
+        "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.  \n \nMatthew 7:18",
         
         "The young man saith unto him, All these things have I kept from my youth up: what lack I yet?  \n \nMatthew 19:20",
         
@@ -390,6 +436,8 @@ struct QuoteProvider {
         
         
         // // MARK: Mark // //
+        
+        "And these are they which are sown on good ground; such as hear the word, and receive it, and bring forth fruit, some thrityfold, some sixty, and some an hundred.  \n \nMark 4:20",
         
         "For what shall it profit a man, if he shall gain the whole world, and lose his own soul?  \n \nMark 8:36",
         
@@ -407,11 +455,13 @@ struct QuoteProvider {
         
         // // MARK: Luke // //
         
+        "And he closed the book, and he gave it again to the minister, and sat down.  And the eyes of all them that were in the synagogue were fastened on him.  And he began to say unto them, This day is this scripture fulfilled in your ears.  \n \nLuke 4:20-21",
+        
         "But when Jesus perceived their thoughts, he answering said unto them, What reason ye in your hearts?  \n \nLuke 5:22",
         
         "But that ye may know that the Son of man hath power upon earth to forgive sins, (he said unto the sick of the palsy,) I say unto thee, Arise, and take up thy couch, and go into thine house.  \n \nLuke 5:22",
         
-        "And Jesus answering said unto them, They that are whole need a not a physician; but they that are sick.  \n \nLuke 5:31",
+        "And Jesus answering said unto them, They that are whole need not a physician; but they that are sick.  \n \nLuke 5:31",
         
         "The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when thine eye is evil, thy body also is full of darkness.  \n \nLuke 11:34",
         
@@ -435,6 +485,10 @@ struct QuoteProvider {
         
         "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.  \n \nJohn 3:16",
         
+        "But the hour cometh, and now is, when the true worshippers shall worship the Father in spirit and in truth: for the Father seeketh such to worship him.  \n \nJohn 4:23",
+        
+        "God is a Spirit: and they that worship him must worship him in spirit and in truth.  \n \nJohn 4:24",
+        
         "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.  \n \nJohn 13:34",
         
         "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.  \n \nJohn 14:6",
@@ -457,6 +511,8 @@ struct QuoteProvider {
         
         "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.  \n \nActs 4:12",
         
+        "But Peter and John answered and said unto them, Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.  For we cannot but speak the things which we have seen and heard.  \n \nActs 4:19-20",
+        
         "And now, brethren, I commend you to God, and to the word of his grace, which is able to build you up, and to give you an inheritance among all them which are sanctified.  \n \nActs 20:32",
         
         
@@ -470,6 +526,8 @@ struct QuoteProvider {
         "As it is written, There is none righteous, no, not one.  \n \nRomans 3:10",
         
         "For all have sinned, and come short of the glory of God.  \n \nRomans 3:23",
+        
+        "He staggered not at the promise of God through unbelief; but was strong in faith giving glory to God.  \n \nRomans 4:20",
         
         "But God commendeth his love towards us, in that, while we were yet sinners, Christ died for us.  \n \nRomans 5:8",
         
@@ -503,7 +561,9 @@ struct QuoteProvider {
         
         "Moreover it is required in stewards, that a man be found faithful.  \n \n1 Corinthians 4:2",
         
-        "Therefore judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts: and then shall every man have praise of God.  1 Corinthians 4:5",
+        "Therefore judge nothing before the time, until the Lord come, who both will bring to light the hidden things of darkness, and will make manifest the counsels of the hearts: and then shall every man have praise of God.  \n \n1 Corinthians 4:5",
+        
+        "But I will come to you shortly, if the Lord will, and will know, not the speech of them which are puffed up, but the power.  For the kingdom of God is not in word, but in power.  \n \n1 Corinthians 4:19-20",
         
         "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.  \n \n1 Corinthians 10:13",
         
@@ -511,7 +571,7 @@ struct QuoteProvider {
         
         "And though I have the gift of prophecy, and understand all mysteries, and all knowledge; and though I have all faith, so that I could remove mountains, and have not charity, I am nothing.  \n \n1 Corinthians 13:2",
         
-        "Beareth all things, believeth all tings, hopeth all things, endureth all things.  \n \n1 Corinthians 13:7",
+        "Beareth all things, believeth all things, hopeth all things, endureth all things.  \n \n1 Corinthians 13:7",
         
         "Follow after charity, and desire spiritual gifts, but rather that ye may prophesy.  \n \n1 Corinthians 14:1",
         
@@ -556,6 +616,18 @@ struct QuoteProvider {
         
         
         // // MARK: Ephesians // //
+        
+        "And be renewed in the spirit of your mind; And that ye put on the new man, which after God is created in righteousness and true holiness.  \n \nEphesians 4:23-24",
+        
+        "Wherefore putting away lying, speak every man truth with his neigbour: for we are members one of another.  \n \nEphesians 4:25",
+        
+        "Be ye angry, and sin not: let not the sun go down upon your wrath:  \n \nEphesians 4:26",
+        
+        "Let him that stole steal no more: but rather let him labour, working with his hands the thing which is good, that he may have to give to him that needeth.  \n \nEphesians 4:28",
+        
+        "Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.  \n \nEphesians 4:29",
+        
+        "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you.  \n \nEphesians 4:32",
         
         "And walk in love, as Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a sweet-smelling savour.  \n \nEphesians 5:2",
         
@@ -652,12 +724,29 @@ struct QuoteProvider {
         "And whatsoever we ask, we receive of him, because we keep his commandments, and do those things that are pleasing in his sight.  \n \n1 John 3:22",
         
         
+        
+        
+        
+        
+        
         ]
     
+    
+    
+    
+    
+    
+    
     func randomQuote() -> String {
+        
+        print(kjvQuotes.count)
+        
         let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: kjvQuotes.count)
         return kjvQuotes[randomNumber]
+    
         
     }
+
+    
 }
 

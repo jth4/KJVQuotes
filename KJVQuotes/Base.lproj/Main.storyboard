@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,11 +13,8 @@
         <array key="Baskerville.ttc">
             <string>Baskerville</string>
         </array>
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </array>
         <array key="HelveticaNeueLights.ttc">
-            <string>HelveticaNeue-LightItalic</string>
+            <string>HelveticaNeue-Light</string>
         </array>
     </customFonts>
     <scenes>
@@ -26,67 +23,61 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KJVQuotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg02.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-ER-rT4" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg04" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-ER-rT4" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="292" placeholderIntrinsicHeight="322" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="1IJ-Vr-Qjx">
-                                <rect key="frame" x="19" y="79" width="282" height="322"/>
-                                <string key="text">Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof.  Neither yield ye your members as instruments of unrighteousness unto sin: but yield yourselves unto God, as those that are alive from the sea, and your members as instruments of righteousness unto God.  Romans 6:12-13</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KJV Quotes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWy-9L-9eR">
-                                <rect key="frame" x="19" y="53" width="202.5" height="28"/>
-                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="24"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verses from the King James Bible" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKQ-h2-kUj">
-                                <rect key="frame" x="19" y="85" width="289" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="5be-Bs-7CC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="15"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIh-C6-rUb">
-                                <rect key="frame" x="250" y="410" width="50" height="50"/>
+                                <rect key="frame" x="250" y="498" width="50" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TIT-rM-pY2"/>
                                     <constraint firstAttribute="width" constant="50" id="wb6-q9-hT6"/>
                                 </constraints>
                                 <state key="normal" image="ArrowButton"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideDown"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWF-gj-GLA"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="292" placeholderIntrinsicHeight="322" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="1IJ-Vr-Qjx" customClass="SpringLabel" customModule="KJVQuotes" customModuleProvider="target">
+                                <rect key="frame" x="14" y="16" width="292" height="322"/>
+                                <string key="text">Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof.  Neither yield ye your members as instruments of unrighteousness unto sin: but yield yourselves unto God, as those that are alive from the sea, and your members as instruments of righteousness unto God.  Romans 6:12-13</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KJV Quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWy-9L-9eR">
+                                <rect key="frame" x="61" y="432" width="197.5" height="41"/>
+                                <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.25669942074823426" green="0.53770988493958205" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4xn-b9-XuW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AWy-9L-9eR" secondAttribute="trailing" constant="98.666666666666629" id="8Ql-eB-wJj"/>
+                            <constraint firstItem="cIh-C6-rUb" firstAttribute="top" secondItem="AWy-9L-9eR" secondAttribute="bottom" constant="25" id="CNd-9M-nd5"/>
                             <constraint firstItem="1IJ-Vr-Qjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DNV-BM-iO9"/>
-                            <constraint firstItem="AWy-9L-9eR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="LKX-W0-sGQ"/>
-                            <constraint firstItem="OKQ-h2-kUj" firstAttribute="top" secondItem="AWy-9L-9eR" secondAttribute="bottom" constant="4.3333333333333286" id="LVv-mI-45t"/>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OER-Sg-7Z5"/>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RKg-pg-rxw"/>
-                            <constraint firstItem="AWy-9L-9eR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="Vbd-a6-Wyf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OKQ-h2-kUj" secondAttribute="trailing" constant="12" id="WQB-jz-qhA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cIh-C6-rUb" secondAttribute="bottom" constant="20" id="a06-wW-KpV"/>
                             <constraint firstAttribute="bottom" secondItem="Smv-ER-rT4" secondAttribute="bottom" id="euo-9i-HK9"/>
-                            <constraint firstItem="OKQ-h2-kUj" firstAttribute="leading" secondItem="AWy-9L-9eR" secondAttribute="leading" id="pN8-mY-OxC"/>
-                            <constraint firstItem="OKQ-h2-kUj" firstAttribute="leading" secondItem="1IJ-Vr-Qjx" secondAttribute="leading" id="uBV-yA-DMP"/>
-                            <constraint firstItem="1IJ-Vr-Qjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yNX-Dr-8a9"/>
+                            <constraint firstItem="AWy-9L-9eR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="hb2-nT-NXe"/>
+                            <constraint firstItem="AWy-9L-9eR" firstAttribute="centerX" secondItem="1IJ-Vr-Qjx" secondAttribute="centerX" id="lsq-DJ-Aq2"/>
+                            <constraint firstItem="1IJ-Vr-Qjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-107" id="yNX-Dr-8a9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cIh-C6-rUb" secondAttribute="trailing" constant="20" id="zvj-NF-hqd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideDown"/>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="gqT-QO-pBV" appends="YES" id="hkz-2J-cYn"/>
                             <outletCollection property="gestureRecognizers" destination="x3d-c4-Zon" appends="YES" id="k5W-zY-lcL"/>
@@ -127,11 +118,11 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="127.5" y="127.5"/>
+            <point key="canvasLocation" x="127.2" y="127.28635682158921"/>
         </scene>
     </scenes>
     <resources>
         <image name="ArrowButton" width="250" height="250"/>
-        <image name="bg02.jpg" width="1125" height="2436"/>
+        <image name="bg04" width="1125" height="2436"/>
     </resources>
 </document>

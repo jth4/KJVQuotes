@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,55 +23,54 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KJVQuotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg04" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-ER-rT4" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIh-C6-rUb">
-                                <rect key="frame" x="250" y="498" width="50" height="50"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="TIT-rM-pY2"/>
-                                    <constraint firstAttribute="width" constant="50" id="wb6-q9-hT6"/>
-                                </constraints>
-                                <state key="normal" image="ArrowButton"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideDown"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AWF-gj-GLA"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="292" placeholderIntrinsicHeight="322" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" preferredMaxLayoutWidth="292" translatesAutoresizingMaskIntoConstraints="NO" id="1IJ-Vr-Qjx" customClass="SpringLabel" customModule="KJVQuotes" customModuleProvider="target">
-                                <rect key="frame" x="14" y="16" width="292" height="322"/>
+                                <rect key="frame" x="14" y="-28" width="292" height="322"/>
                                 <string key="text">Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof.  Neither yield ye your members as instruments of unrighteousness unto sin: but yield yourselves unto God, as those that are alive from the sea, and your members as instruments of righteousness unto God.  Romans 6:12-13</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KJV Quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWy-9L-9eR">
-                                <rect key="frame" x="61" y="432" width="197.5" height="41"/>
+                                <rect key="frame" x="69.5" y="334" width="181" height="41"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="36"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Noi-GF-2EZ">
+                                <rect key="frame" x="70" y="400" width="180" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="m7f-Ee-9nX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Share">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSharePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XzS-qb-ESM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25669942074823426" green="0.53770988493958205" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="Noi-GF-2EZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="33r-bE-Qs6"/>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4xn-b9-XuW"/>
-                            <constraint firstItem="cIh-C6-rUb" firstAttribute="top" secondItem="AWy-9L-9eR" secondAttribute="bottom" constant="25" id="CNd-9M-nd5"/>
+                            <constraint firstItem="Noi-GF-2EZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5By-WX-puh"/>
                             <constraint firstItem="1IJ-Vr-Qjx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DNV-BM-iO9"/>
+                            <constraint firstItem="Noi-GF-2EZ" firstAttribute="top" secondItem="AWy-9L-9eR" secondAttribute="bottom" constant="25" id="Gpm-EQ-vlp"/>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="OER-Sg-7Z5"/>
                             <constraint firstItem="Smv-ER-rT4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RKg-pg-rxw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cIh-C6-rUb" secondAttribute="bottom" constant="20" id="a06-wW-KpV"/>
                             <constraint firstAttribute="bottom" secondItem="Smv-ER-rT4" secondAttribute="bottom" id="euo-9i-HK9"/>
-                            <constraint firstItem="AWy-9L-9eR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="hb2-nT-NXe"/>
-                            <constraint firstItem="AWy-9L-9eR" firstAttribute="centerX" secondItem="1IJ-Vr-Qjx" secondAttribute="centerX" id="lsq-DJ-Aq2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Noi-GF-2EZ" secondAttribute="bottom" constant="50" id="lo5-lw-OU9"/>
+                            <constraint firstItem="AWy-9L-9eR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="orx-Ss-VAU"/>
                             <constraint firstItem="1IJ-Vr-Qjx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-107" id="yNX-Dr-8a9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cIh-C6-rUb" secondAttribute="trailing" constant="20" id="zvj-NF-hqd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <userDefinedRuntimeAttributes>
@@ -87,7 +86,6 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="buttonLabel" destination="cIh-C6-rUb" id="ryK-gA-iw4"/>
                         <outlet property="quoteLabel" destination="1IJ-Vr-Qjx" id="5ed-bY-XPQ"/>
                     </connections>
                 </viewController>
@@ -122,7 +120,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ArrowButton" width="250" height="250"/>
         <image name="bg04" width="1125" height="2436"/>
     </resources>
 </document>

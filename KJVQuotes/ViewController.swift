@@ -25,6 +25,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func onSharePressed(_ sender: Any) {
+        let activityVC = UIActivityViewController(activityItems: [quoteLabel.text ?? "KJV Quotes"], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        
+        self.present(activityVC, animated: true, completion: nil)
+    
+    }
     
     // Swipes, taps, and buttons
     

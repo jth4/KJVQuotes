@@ -92,6 +92,20 @@ struct QuoteProvider {
         
         
         
+        // // MARK: Exodus // //
+        
+        "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness.  \n \nExodus 23:1",
+        
+        "And thou shalt take no gift: for the gift blindeth the wise, and perverteth the words of the righteous.  \n \nExodus 23:8",
+        
+        
+        
+        
+        
+        
+        
+        
+        
         // // MARK: Deuteronomy // //
         
         "Thou shalt be perfect with the Lord thy God.  \n \nDeuteronomy 18:13",
@@ -150,6 +164,8 @@ struct QuoteProvider {
         // // MARK: Psalms // //
         
         "Blessed is the man that walketh not in the counsel of the ungodly, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.  \n \nPsalm 1:1",
+        
+        "Arise, O Lord; O God, lift up thine hand: forget not the humble.  \n \nPsalm 10:12",
         
         "In the Lord put I my trust: how say ye to my soul, Flee as a bird to your mountain?  \n \nPsalm 11:1",
         
@@ -251,6 +267,12 @@ struct QuoteProvider {
         
         "Glory ye in his holy name: let the heart of them rejoice that seek the Lord.  \n \nPsalm 105:3",
         
+        "He spread a cloud for covering; and fire to give light in the night.  \n\nPsalm 105:39",
+        
+        "He opened the rock, and the waters gushed out; they ran in the dry places like a river.  \n\nPsalm 105:41",
+        
+        "They soon forgat his works; they waited not for his counsel: But lusted exceedingly in the wilderness, and tempted God in the desert.  And he gave them their request; but sent leanness into their soul.  \n\nPsalm 106:13-15",
+        
         "I love the Lord, because he hath heard my voice and my supplications.  Because he hath inclined his ear unto me, therefore will I call upon him as long as I live.  \n \nPsalm 116:1-2",
         
         "The Lord preserveth the simple: I was brought low, and he helped me.  \n \nPsalm 116:6",
@@ -311,11 +333,47 @@ struct QuoteProvider {
         
         "Train up a child in the way he should go: and when he is old, he will not depart from it.  \n \nProverbs 22:6",
         
+        "Take away the dross from the silver, and there shall come forth a vessel for the finer.  \n \nProverbs 25:4",
+        
+        "A word fitly spoken is like apples of gold in pictures of silver.  \n \nProverbs 25:11",
+        
+        "Whoso boasteth himself of a false gift is like clouds and wind without rain.  \n \nProverbs 25:14",
+        
+        "Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.  \n \nProverbs 25:19",
+        
+        "If thine enemy be hungry, give him bread to eat; and if he be thirsty, give him water to drink.  \n \nProverbs 25:21",
+        
+        "A righteous man falling down before the wicked is as a troubled fountain, and a corrupt spring.  \n \nProverbs 25:26",
+        
+        "It is not good to eat much honey: so for men to search their own glory is not glory.  \n \nProverbs 25:27",
+        
+        "He that hath no rule over his own spirit is like a city that is broken down, and without walls.  \n \nProverbs 25:28",
+        
+        "As a dog returneth to his vomit, so a fool returneth to his folly.  \n \nProverbs 26:11",
+        
+        "Seest thou a man wise in his own conceit? there is more hope of a fool than of him.  \n \nProverbs 26:12",
+        
+        "He that passeth by, and meddleth with strife belonging not to him, is like one that taketh a dog by the ears.  \n \nProverbs 26:17",
+        
+        "Let another man praise thee, and not thine own mouth; a stranger, and not thine own lips.  \n \nProverbs 27:2",
+        
+        "Ointment and perfume rejoice the heart: so doth the sweetness of a man's friend by hearty counsel.  \n \nProverbs 27:9",
+        
         "Iron sharpeneth iron; so a man sharpeneth the countenance of his friend.  \n \nProverbs 27:17",
         
         "Better is the poor that walketh in his uprightness, than he that is perverse in his ways, though he be rich.  \n \nProverbs 27:6",
         
         "He that covereth his sins shall not prosper: but whoso confesseth and forsaketh them shall have mercy.  \n \nProverbs 28:13",
+        
+        "The prince that wanteth understanding is also a great oppressor: but he that hateth covetousness shall prolong his days.  \n \nProverbs 28:16",
+        
+        "Whoso walketh uprightly shall be saved: but he that is perverse in his ways shall fall at once.  \n \nProverbs 28:18",
+        
+        "He that tilleth his land shall have plenty of bread: but he that followeth after vain persons shall have poverty enough.  \n \nProverbs 28:19",
+        
+        "A faithful man shall abound with blessings: but he that maketh haste to be rich shall not be innocent.  \n \nProverbs 28:19",
+        
+        "He that hasteth to be rich hath an evil eye, and considereth not that poverty shall come upon him.  \n \nProverbs 28:22",
         
         "A fool uttereth all his mind: but a wise man keepeth it in till afterwards.  \n \nProverbs 29:11",
         
@@ -338,6 +396,31 @@ struct QuoteProvider {
         // // MARK: Ecclesiastes // //
         
         "All things are full of labour; man cannot utter it: the eye is not satisfied with seeing, nor the ear filled with hearing.  \n \nEcclesiastes 1:8",
+        
+        "It is better to hear the rebuke of the wise, than for a man to hear the song of fools.  \n \nEcclesiastes 7:5",
+        
+        "Better is the end of a thing than the beginning thereof: and the patient in spirit is better than the proud in spirit.  \n \nEcclesiastes 7:8",
+        
+        "Wisdom is good with an inheritance: and by it there is profit to them that see the sun.  \n \nEcclesiastes 7:11",
+        
+        "Who is as the wise man? and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness of his face shall be changed.  \n \nEcclesiastes 8:1",
+        
+        "The words of wise men are heard in quiet more than the cry of him that ruleth among fools.  \n \nEcclesiastes 9:17",
+        
+        "Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.  \n \nEcclesiastes 10:3",
+        
+        "If the iron be blunt, and he do not whet the edge, then must he put to more strength: but wisdom is profitable to direct.  \n \nEcclesiastes 10:10",
+        
+        "The words of a wise man's mouth are gracious; but the lips of a fool will swallow up himself.  \n \nEcclesiastes 10:12",
+        
+        "By much slothfulness the building decayeth; and through idleness of the hands the house droppeth through.  \n \nEcclesiastes 10:18",
+        
+        "As thou knowest not what is the way of the spirit, nor how the bones do grow in the womb of her that is with child: even so thou knowest not the works of God who maketh all.  \n \nEcclesiastes 11:5",
+        
+        "In the morning sow thy seed, and in the evening withhold not thine hand: for thou knowest not whether shall prosper, either this or that, or whether they both shall be alike good.  \n \nEcclesiastes 11:6",
+        
+        "Truly the light is sweet, and a pleasant thing it is for the eyes to behold the sun:  \n \nEcclesiastes 11:7",
+        
         
         
         
@@ -725,6 +808,25 @@ struct QuoteProvider {
         
         
         
+        
+        
+        
+        
+        // // MARK: Revelation // //
+        
+        "I was in the Spirit on the Lord's day, and heard behind me a great voice, as of a trumpet,  \n \nRevelation 1:10",
+        
+        "And when I saw him, I fell at his feet as dead.  And he laid his right hand upon me, saying unto me, Fear not: I am the first and the last:  \n \nRevelation 1:17",
+        
+        "I know thy works, and thy labour, and thy patience, and how thou canst not bear them which are evil: and thou hast tried them which say they are apostles, and are not, and hast found them liars.  \n \nRevelation 2:2",
+        
+        "Remember therefore from whence thou art fallen, and repent, and do the first works: or else I will come unto thee quickly, and will remove thy candlestick out of his place, except thou repent.  \n \nRevelation 2:5",
+        
+        "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God.  \n \nRevelation 2:7",
+        
+        "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the hidden manna, and will give him a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it.  \n \nRevelation 2:17",
+        
+        "And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be.  \n \nRevelation 22:12",
         
         
         

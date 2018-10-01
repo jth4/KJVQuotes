@@ -6,7 +6,8 @@
 //  Copyright © 2017 jth4. All rights reserved.
 //
 
-import GameKit
+//import GameKit
+import Foundation
 
 struct QuoteProvider {
     
@@ -46,7 +47,7 @@ struct QuoteProvider {
         
         
         
-        // ********************************************************************************************************************************** Total # of verses: 210
+        // ********************************************************************************************************************************** Total # of verses: 338
         
         
         
@@ -85,6 +86,10 @@ struct QuoteProvider {
         // // MARK: Genesis // //
         
         "In the beginning God created the heaven and the earth.  \n \nGenesis 1:1",
+        
+        "And Adam called his wife's name Eve; because she was the mother of all living.  \n \nGenesis 3:20",
+        
+        "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.  \n \nGenesis 3:24",
         
         
         
@@ -129,7 +134,7 @@ struct QuoteProvider {
         
         "Be of good courage, and let us behave ourselves valiantly for our people, and for the cities of our God: and let the Lord do that which is good in his sight.  \n \n1 Chronicles 19:13",
         
-        "Now set your heart and your soul to seek the Lord your God; arise therefore, and build ye the sanctuary of the Lord God, to bring the ark of the covenant of the Lord, and the holy vessels of God, into the house that is to be built to the name of the Lord.  1 \n \n1 Chronicles 22:19",
+        "Now set your heart and your soul to seek the Lord your God; arise therefore, and build ye the sanctuary of the Lord God, to bring the ark of the covenant of the Lord, and the holy vessels of God, into the house that is to be built to the name of the Lord.  \n \n1 Chronicles 22:19",
         
         
         
@@ -460,6 +465,14 @@ struct QuoteProvider {
         
         // // MARK: Daniel // //
         
+        "Then said Daniel unto the king, O king, live for ever.  \n \nDaniel 6:21",
+        
+        "My God hath sent his angel and hath shut the lions' mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt.  \n \nDaniel 6:22",
+        
+        "Then was the king exceeding glad for him, and commanded that they should take Daniel up out of the den.  So Daniel was taken up out of the den, and no manner of hurt was found upon him, because he believed in his God.  \n \nDaniel 6:27",
+        
+        "He delivereth and rescueth, and he worketh signs and wonders in heaven and in earth, who hath delivered Daniel from the power of the lions.  \n \nDaniel 6:27",
+        
         "But the saints of the most High shall take the kingdom, and possess the kingdom for ever, even for ever and ever.  \n \nDaniel 7:18",
         
         "Therefore hath the Lord watched upon the evil, and brought it upon us: for the Lord our God is righteous in all his works which he doeth: for we obeyed not his voice.  \n \nDaniel 9:14",
@@ -469,6 +482,36 @@ struct QuoteProvider {
         "Then said he unto me, Fear not, Daniel: for from the first day that thou didst set thine heart to understand, and to chasten thyself before thy God, thy words were heard, and I am come for thy words.  \n \nDaniel 10:12",
         
         "And said, O man greatly beloved, fear not: peace be unto thee, be strong, yea, be strong.  And when he had spoken unto me, I was strengthened, and said, Let my lord speak; for thou hast strengthened me.  \n \nDaniel 10:19",
+        
+        
+        
+        
+        
+        
+        
+        // // MARK: Nahum // //
+        
+        "The Lord is good, a strong hold in the day of trouble; and he knoweth them that trust in him.  \n \nNahum 1:7",
+        
+        
+        
+        
+        
+        
+        
+        // // MARK: Habakkuk // //
+        
+        "The Lord God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places.  To the chief singer on my stringed instruments.  \n \nHabakkuk 3:19",
+        
+        
+        
+        
+        
+        
+        
+        // // Mark: Zephaniah // //
+        
+        "The Lord thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.  \n \nZephaniah 3:17",
         
         
         
@@ -508,9 +551,27 @@ struct QuoteProvider {
         
         "A good tree cannot bring forth evil fruit, neither can a corrupt tree bring forth good fruit.  \n \nMatthew 7:18",
         
+        "And Simon Peter answered and said, Thou art the Christ, the Son of the living God.  And Jesus answered and said unto him, Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.  \n \nMatthew 16:16-17",
+        
+        "And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.  \n \nMatthew 16:18",
+        
+        "And I will give unto thee the keys of the kingdom of heaven: and whatsoever thou shalt bind on earth shall be bound in heaven: and whatsoever thou shalt loose on earth shall be loosed in heaven.  \n \nMatthew 16:19",
+        
         "The young man saith unto him, All these things have I kept from my youth up: what lack I yet?  \n \nMatthew 19:20",
         
         "And all things, whatsoever ye shall ask in prayer, believing, ye shall receive.  \n \nMatthew 21:22",
+        
+        "Watch therefore: for ye know not what hour your Lord doth come.  \n \nMatthew 24:42",
+        
+        "But know this, that if the goodman of the house had known in what watch the theif would come, he would have watched and would not have suffered his house to be broken up.  \n \nMatthew 24:43",
+        
+        "Therefore be ye also ready: for in such an hour as ye think not the Son of man cometh.  \n \nMatthew 24:44",
+        
+        "Blessed is that servant, whom his lord when he cometh shall find so doing.  \n \nMatthew 24:46",
+        
+        "They that were foolish took their lamps, and took no oil with them:  But the wise took oil in their vessels with their lamps.  \n \nMatthew 25:3-4",
+        
+        "And while they went to buy, the bridegroom came; and they that were ready went in with him to the marriage: and the door was shut.  \n \nMatthew 25:10",
         
         
         
@@ -524,12 +585,68 @@ struct QuoteProvider {
         
         "For what shall it profit a man, if he shall gain the whole world, and lose his own soul?  \n \nMark 8:36",
         
+        "But Jesus took him by the hand, and lifted him up; and he arose.  \n \nMark 9:27",
+        
+        "And he said unto them, This kind can come forth by nothing, but by prayer and fasting.  \n \nMark 9:29",
+        
+        "And he sat down, and called the twelve, and saith unto them, If any man desire to be first, the same shall be the last of all, and servant of all.  \n \nMark 9:35",
+        
+        "For whosoever shall give you a cup of water to drink in my name, because ye belong to Christ, verily I say unto you, he shall not lose his reward.  \n \nMark 9:41",
+        
+        "Salt is good: but if the salt have lost his saltness, wherewith will ye season it?  Have salt in yourselves, and have peace one with another.  \n \nMark 9:50",
+        
         "Verily I say unto you, Whosoever shall not receive the kingdom of God as a little child, he shall not enter therein.  \n \nMark 10:15",
         
+        "And he took them up in his arms, put his hands upon them, and blessed them.  \n \nMark 10:16",
+        
+        "And Jesus looking upon them saith, With men it is impossible, but not with God: for with God all things are possible. \n \nMark 10:25",
+        
+        "But to sit on my right hand and on my left hand is not mine to give; but it shall be given to them for whom it is prepared.  \n \nMark 10:40",
+        
+        "And whosoever of you will be the chiefest, shall be servant of all.  \n \nMark 10:44",
+        
+        "And Jesus answered and said unto him, What wilt thou that I should do unto thee?  The blind man said unto him, Lord, that I might receive my sight.  \n \nMark 10:51",
+        
+        "And Jesus said unto him, Go thy way; thy faith hath made thee whole.  And immediately he received his sight, and followed Jesus in the way.  \n \nMark 10:52",
+
         "Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them, and ye shall have them.  \n \nMark 11:24",
         
         "And when ye stand praying, forgive, if ye have aught against any: that your Father also which is in heaven may forgive you your trespasses.  \n \nMark 11:25",
         
+        "And he began to speak unto them by parables.  A certain man planted a vineyard, and set an hedge about it, and digged a place for the winebat, and built a tower, and let it out to husband-men, and went into a far country.  \n \nMark 12:1",
+        
+        "And have ye not read this scripture; The stone which the builders rejected is become the head of the corner:  \n \nMark 12:10",
+        
+        "And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind, and with all thy strength: this is the first commandment.  \n \nMark 12:30",
+        
+        "And the second is like, namely this, Thou shalt love thy neighbor as thyself.  There is none other commandment greater than these.  \n \nMark 12:31",
+        
+        "But when they shall lead you, and deliver you up, take no thought beforehand what ye shall speak, neither do ye premeditate: but whatsoever shall be given you in that hour, that speak ye: for it is not ye that speak, but the Holy Ghost.  \n \nMark 13:11",
+        
+        "And then shall he send his angels, and shall gather together his elect from the four winds, from the uttermost part of the earth to the uttermost part of heaven.  \n \nMark 13:27",
+        
+        "Heaven and earth shall pass away: but my words shall not pass away.  \n \nMark 13:31",
+        
+        "Lest coming suddenly he find you sleeping.  \n \nMark 13:36",
+        
+        "And what I say unto you I say unto all, Watch.  \n \nMark 13:37",
+        
+        "And he sendeth forth two of his disciples, and saith unto them, Go ye into the city, and there shall meet you a man bearing a pitcher of water: follow him.  \n \nMark 14:13",
+        
+        "And he will shew you a large upper room furnished and prepared: there make ready for us.  \n \nMark 14:15",
+        
+        "And he said, Abba, Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt.  \n \nMark 14:36",
+        
+        "And he said unto them, Go ye into all the world, and preach the gospel to every creature.  \n \nMark 16:15",
+        
+        "He that believeth and is baptized shall be saved; but he that believeth not shall be damned.  \n \nMark 16:16",
+        
+        "And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues.  \n \nMark 16:17",
+        
+        "They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.  \n \nMark 16:18",
+        
+        "So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God.  \n \nMark 16:19",
+
         
         
         
@@ -538,6 +655,28 @@ struct QuoteProvider {
         
         // // MARK: Luke // //
         
+        "And there appeared unto him an angel of the Lord standing on the right side of the altar of incense.  \n \nLuke 1:11",
+        
+        "For he shall be great in the sight of the Lord, and shall drink neither wine nor strong drink; and he shall be filled wtih the Holy Ghost, even from his mother's womb.  \n \nLuke 1:15",
+        
+        "And many of the children of Israel shall he turn to the Lord their God.  \n \nLuke 1:16",
+        
+        "And the angel came in unto her, and said, Hail, thou that art highly favoured, the Lord is with thee: blessed art thou among women.  \n \nLuke 1:28",
+        
+        "For with God nothing shall be impossible.  \n \nLuke 1:37",
+        
+        "And blessed is she that believed: for there shall be a performance of those things which were told her from the Lord.  \n \nLuke 1:45",
+        
+        "And Mary said, My soul doth magnify the Lord, And my spirit hath rejoiced in God my Saviour.  \n \nLuke 1:46-47",
+        
+        "For he that is mighty hath done to me great things; and holy is his name.  \n \nLuke 1:49",
+        
+        "In holiness and righteousness before him, all the days of our life.  \n \nLuke 1:75",
+        
+        "To give light to them that sit in darkness and in the shadow of death, to guide our feet into the way of peace.  \n \nLuke 1:79",
+        
+        "And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.  \n \nLuke 1:80",
+        
         "And he closed the book, and he gave it again to the minister, and sat down.  And the eyes of all them that were in the synagogue were fastened on him.  And he began to say unto them, This day is this scripture fulfilled in your ears.  \n \nLuke 4:20-21",
         
         "But when Jesus perceived their thoughts, he answering said unto them, What reason ye in your hearts?  \n \nLuke 5:22",
@@ -545,6 +684,12 @@ struct QuoteProvider {
         "But that ye may know that the Son of man hath power upon earth to forgive sins, (he said unto the sick of the palsy,) I say unto thee, Arise, and take up thy couch, and go into thine house.  \n \nLuke 5:22",
         
         "And Jesus answering said unto them, They that are whole need not a physician; but they that are sick.  \n \nLuke 5:31",
+        
+        "And when the Lord saw her, he had compassion on her, and said unto her, Weep not.  \n \nLuke 7:20",
+        
+        "And he said unto her, Thy sins are forgiven.  \n \nLuke7:48",
+        
+        "And he said to the woman, Thy faith hath saved thee; go in peace.  \n \nLuke 7:50",
         
         "The light of the body is the eye: therefore when thine eye is single, thy whole body also is full of light; but when thine eye is evil, thy body also is full of darkness.  \n \nLuke 11:34",
         
@@ -572,6 +717,14 @@ struct QuoteProvider {
         
         "God is a Spirit: and they that worship him must worship him in spirit and in truth.  \n \nJohn 4:24",
         
+        "Jesus said unto them, If God were your Father, ye would love me: for I proceeded forth and came from God; neither came I of myself, but he that sent me.  \n \nJohn 8:42",
+        
+        "Why do ye not understand my speech? even because ye cannot hear my word.  \n \nJohn 8:43",
+        
+        "Jesus answered, If I honour myself, my honour is nothing: it is my Father that honoureth me; of whom ye say, that he is your God:  \n \nJohn 8:54",
+        
+        "If this man were not of God, he could do nothing.  \n \nJohn 9:33",
+        
         "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.  \n \nJohn 13:34",
         
         "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.  \n \nJohn 14:6",
@@ -579,6 +732,24 @@ struct QuoteProvider {
         "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you.  Let not your heart be troubled, neither let it be afraid.  \n \nJohn 14:27",
         
         "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.  \n \nJohn 15:5",
+        
+        "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come.  \n \nJohn 16:13",
+        
+        "A little while, and ye shall not see me: and again, a little while, and ye shall see me, because I go to the Father.  \n \nJohn 16:16",
+        
+        "Verily, verily, I say unto you, That ye shall weep and lament, but the word shall rejoice: and ye shall be sorrowful, but your sorrow shall be turned into joy.  \n \nJohn 16:20",
+        
+        "A woman when she is in travail hath sorrow, because her hour is come: but as soon as she is delivered of the child, she remembereth no more the anguish, for joy that a man is born into the world.  \n \nJohn16:21",
+        
+        "And ye now therefore have sorrow: but I will see you again, and your heart shall rejoice, and your joy no man taketh from you.  \n \nJohn 16:22",
+        
+        "For the Father himself loveth you, because ye have loved me, and have believed that I came out form God.  \n \nJohn 16:27",
+        
+        "I came forth from the Father, and am come into the world: again, I leave the world, and go to the Father.  \n \nJohn 16:28",
+        
+        "Behold, the hour cometh, yea, is now come, that ye shall be scattered, every man to his own, and shall leave me alone: and yet I am not alone, because the Father is with me.  \n \nJohn 16:32",
+        
+        "These things I have spoken unto you, that in me ye might have peace.  In the world ye shall have tribulation: but be of good cheer; I have overcome the world.  \n \nJohn 16:33",
         
         "Then saith he to Thomas, Reach hither thy finger, and behold my hands; and reach hither thy hand, and thrust it into my side: and be not faithless, but believing.  \n \nJohn 20:27",
         
@@ -595,6 +766,16 @@ struct QuoteProvider {
         "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved.  \n \nActs 4:12",
         
         "But Peter and John answered and said unto them, Whether it be right in the sight of God to hearken unto you more than unto God, judge ye.  For we cannot but speak the things which we have seen and heard.  \n \nActs 4:19-20",
+        
+        "God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands;  \n \nActs 17:24",
+        
+        "Neither is [God] worshipped with men's hands, as though he needed any thing, seeing he giveth to all life, and breath, and all things;  \n \nActs 17:25",
+        
+        "For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring.  \n \nActs 17:28",
+        
+        "Forasmuch then as we are the offspring of God, we ought not to think that the Godhead is like unto gold, or silver, or stone, graven by art and man's device.  \n \nActs 17:29",
+        
+        "And the times of this ignorance God winked at; but now commandeth all men everywhere to repent:  \n \nActs 17:30",
         
         "And now, brethren, I commend you to God, and to the word of his grace, which is able to build you up, and to give you an inheritance among all them which are sanctified.  \n \nActs 20:32",
         
@@ -629,6 +810,8 @@ struct QuoteProvider {
         "The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armour of light.  \n \nRomans 13:12",
         
         "It is good neither to eat flesh, nor to drink wine, nor anything whereby thy brother stumbleth, or is offended, or is made weak.  \n \nRomans 14:21",
+        
+        "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.  \n \nRomans 15:13",
         
         
         
@@ -826,29 +1009,45 @@ struct QuoteProvider {
         
         "He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the hidden manna, and will give him a white stone, and in the stone a new name written, which no man knoweth saving he that receiveth it.  \n \nRevelation 2:17",
         
+        "And immediately I was in the spirit; and, behold, a throne was set in heaven, and one sat on the throne.  \n \nRevelation 4:2",
+        
+        "And he that sat was to look upon like a jasper and a sardine stone: and there was a rainbow round about the throne, in sight like unto an emerald.  \n \nRevelation 4:3",
+        
+        "And round about the throne were four and twenty seats: and upon the seats I saw four and twenty elders sitting, clothed in white raiment; and they had on their heads crowns of gold.  \n \nRevelation 4:4",
+        
         "And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be.  \n \nRevelation 22:12",
+        
+        "The four and twenty elders fall down before him that sat on the throne, and worship him that liveth for ever and ever, and cast their crowns before the throne, saying.  Thou art worthy, O Lord, to receive glory and honour and power: for thou hast created all things, and for thy pleasure they are and were created.  \n \nRevelation 4:10-11",
+        
+        "And I saw a strong angel proclaiming with a loud voice, Who is worthy to open the book, and to loose the seals thereof?  \n \nRevelation 5:2",
+        
+        "And they sung a new song, saying, Thou art worthy to take the book, and to open the seals thereof: for thou wast slain, and hast redeemed us to God by thy blood out of every kindred, and tongue, and people, and nation;  \n \nRevelation 5:9",
         
         
         
         
         ]
     
-    
-    
-    
-    
-    
+
     
     func randomQuote() -> String {
-        
-        print(kjvQuotes.count)
-        
-        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: kjvQuotes.count)
-        return kjvQuotes[randomNumber]
-    
-        
-    }
 
+        
+
+        // Import GameKit
+//        let randomNumber = GKRandomSource.sharedRandom().nextInt(upperBound: kjvQuotes.count)
+//        print(kjvQuotes.count)
+//        return kjvQuotes[randomNumber]
+        
+        // Import Foundation
+        let randomIndex = Int(arc4random_uniform(UInt32(kjvQuotes.count)))
+        print(kjvQuotes.count)
+        return kjvQuotes[randomIndex]
+        
+
+
+    }
+    
     
 }
 

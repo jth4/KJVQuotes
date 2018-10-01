@@ -40,9 +40,82 @@
 		78819B0F1F93FFFD008B6811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78819B0D1F93FFFD008B6811 /* Main.storyboard */; };
 		78819B111F93FFFD008B6811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78819B101F93FFFD008B6811 /* Assets.xcassets */; };
 		78819B141F93FFFD008B6811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78819B121F93FFFD008B6811 /* LaunchScreen.storyboard */; };
-		78819B1C1F940026008B6811 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78819B1B1F940026008B6811 /* QuoteProvider.swift */; };
-		78E6C7952045CBCF006A2ECC /* bg02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78E6C7942045CBCF006A2ECC /* bg02.jpg */; };
+		78A4E0AE21584961001346E3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A4E0AC21584961001346E3 /* Interface.storyboard */; };
+		78A4E0B021584961001346E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A4E0AF21584961001346E3 /* Assets.xcassets */; };
+		78A4E0B721584961001346E3 /* KJVWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 78A4E0B621584961001346E3 /* KJVWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78A4E0BC21584961001346E3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0BB21584961001346E3 /* InterfaceController.swift */; };
+		78A4E0BE21584961001346E3 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0BD21584961001346E3 /* ExtensionDelegate.swift */; };
+		78A4E0C021584961001346E3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4E0BF21584961001346E3 /* NotificationController.swift */; };
+		78A4E0C221584961001346E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A4E0C121584961001346E3 /* Assets.xcassets */; };
+		78A4E0C721584961001346E3 /* KJVWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 78A4E0AA21584960001346E3 /* KJVWatch.app */; };
+		78B86C9A2158A90300859883 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78819B1B1F940026008B6811 /* QuoteProvider.swift */; };
+		78C926242158AF3C00736222 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78819B1B1F940026008B6811 /* QuoteProvider.swift */; };
+		78F19E7F2158B93300C256E8 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F19E7E2158B93300C256E8 /* NotificationCenter.framework */; };
+		78F19E822158B93300C256E8 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F19E812158B93300C256E8 /* TodayViewController.swift */; };
+		78F19E852158B93300C256E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F19E832158B93300C256E8 /* MainInterface.storyboard */; };
+		78F19E892158B93300C256E8 /* KJVToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 78F19E7C2158B93300C256E8 /* KJVToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78F19E8E2158B95100C256E8 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78819B1B1F940026008B6811 /* QuoteProvider.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78A4E0B821584961001346E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78819AFE1F93FFFD008B6811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A4E0B521584961001346E3;
+			remoteInfo = "KJVWatch Extension";
+		};
+		78A4E0C521584961001346E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78819AFE1F93FFFD008B6811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A4E0A921584960001346E3;
+			remoteInfo = KJVWatch;
+		};
+		78F19E872158B93300C256E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78819AFE1F93FFFD008B6811 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F19E7B2158B93300C256E8;
+			remoteInfo = KJVToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78A4E0CD21584961001346E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				78A4E0B721584961001346E3 /* KJVWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A4E0CF21584961001346E3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				78A4E0C721584961001346E3 /* KJVWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F19E8D2158B93300C256E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				78F19E892158B93300C256E8 /* KJVToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		78397B54206D145800621B28 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
@@ -81,7 +154,22 @@
 		78819B131F93FFFD008B6811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78819B151F93FFFD008B6811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78819B1B1F940026008B6811 /* QuoteProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
-		78E6C7942045CBCF006A2ECC /* bg02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg02.jpg; sourceTree = "<group>"; };
+		78A4E0AA21584960001346E3 /* KJVWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJVWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A4E0AD21584961001346E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		78A4E0AF21584961001346E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A4E0B121584961001346E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A4E0B621584961001346E3 /* KJVWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KJVWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A4E0BB21584961001346E3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		78A4E0BD21584961001346E3 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		78A4E0BF21584961001346E3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		78A4E0C121584961001346E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A4E0C321584961001346E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A4E0C421584961001346E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		78F19E7C2158B93300C256E8 /* KJVToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KJVToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F19E7E2158B93300C256E8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		78F19E812158B93300C256E8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		78F19E842158B93300C256E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		78F19E862158B93300C256E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +177,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A4E0B321584961001346E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F19E792158B93300C256E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F19E7F2158B93300C256E8 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +238,10 @@
 			children = (
 				78397B53206D145800621B28 /* Spring */,
 				78819B081F93FFFD008B6811 /* KJVQuotes */,
+				78A4E0AB21584961001346E3 /* KJVWatch */,
+				78A4E0BA21584961001346E3 /* KJVWatch Extension */,
+				78F19E802158B93300C256E8 /* KJVToday */,
+				78F19E7D2158B93300C256E8 /* Frameworks */,
 				78819B071F93FFFD008B6811 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,6 +250,9 @@
 			isa = PBXGroup;
 			children = (
 				78819B061F93FFFD008B6811 /* KJVQuotes.app */,
+				78A4E0AA21584960001346E3 /* KJVWatch.app */,
+				78A4E0B621584961001346E3 /* KJVWatch Extension.appex */,
+				78F19E7C2158B93300C256E8 /* KJVToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +260,6 @@
 		78819B081F93FFFD008B6811 /* KJVQuotes */ = {
 			isa = PBXGroup;
 			children = (
-				78E6C7942045CBCF006A2ECC /* bg02.jpg */,
 				78819B091F93FFFD008B6811 /* AppDelegate.swift */,
 				78819B0B1F93FFFD008B6811 /* ViewController.swift */,
 				78819B1B1F940026008B6811 /* QuoteProvider.swift */,
@@ -160,6 +269,47 @@
 				78819B151F93FFFD008B6811 /* Info.plist */,
 			);
 			path = KJVQuotes;
+			sourceTree = "<group>";
+		};
+		78A4E0AB21584961001346E3 /* KJVWatch */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0AC21584961001346E3 /* Interface.storyboard */,
+				78A4E0AF21584961001346E3 /* Assets.xcassets */,
+				78A4E0B121584961001346E3 /* Info.plist */,
+			);
+			path = KJVWatch;
+			sourceTree = "<group>";
+		};
+		78A4E0BA21584961001346E3 /* KJVWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78A4E0BB21584961001346E3 /* InterfaceController.swift */,
+				78A4E0BD21584961001346E3 /* ExtensionDelegate.swift */,
+				78A4E0BF21584961001346E3 /* NotificationController.swift */,
+				78A4E0C121584961001346E3 /* Assets.xcassets */,
+				78A4E0C321584961001346E3 /* Info.plist */,
+				78A4E0C421584961001346E3 /* PushNotificationPayload.apns */,
+			);
+			path = "KJVWatch Extension";
+			sourceTree = "<group>";
+		};
+		78F19E7D2158B93300C256E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F19E7E2158B93300C256E8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78F19E802158B93300C256E8 /* KJVToday */ = {
+			isa = PBXGroup;
+			children = (
+				78F19E812158B93300C256E8 /* TodayViewController.swift */,
+				78F19E832158B93300C256E8 /* MainInterface.storyboard */,
+				78F19E862158B93300C256E8 /* Info.plist */,
+			);
+			path = KJVToday;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,15 +322,70 @@
 				78819B021F93FFFD008B6811 /* Sources */,
 				78819B031F93FFFD008B6811 /* Frameworks */,
 				78819B041F93FFFD008B6811 /* Resources */,
+				78A4E0CF21584961001346E3 /* Embed Watch Content */,
+				78F19E8D2158B93300C256E8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				78A4E0C621584961001346E3 /* PBXTargetDependency */,
+				78F19E882158B93300C256E8 /* PBXTargetDependency */,
 			);
 			name = KJVQuotes;
 			productName = KJVQuotes;
 			productReference = 78819B061F93FFFD008B6811 /* KJVQuotes.app */;
 			productType = "com.apple.product-type.application";
+		};
+		78A4E0A921584960001346E3 /* KJVWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A4E0CE21584961001346E3 /* Build configuration list for PBXNativeTarget "KJVWatch" */;
+			buildPhases = (
+				78A4E0A821584960001346E3 /* Resources */,
+				78A4E0CD21584961001346E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A4E0B921584961001346E3 /* PBXTargetDependency */,
+			);
+			name = KJVWatch;
+			productName = KJVWatch;
+			productReference = 78A4E0AA21584960001346E3 /* KJVWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		78A4E0B521584961001346E3 /* KJVWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A4E0CC21584961001346E3 /* Build configuration list for PBXNativeTarget "KJVWatch Extension" */;
+			buildPhases = (
+				78A4E0B221584961001346E3 /* Sources */,
+				78A4E0B321584961001346E3 /* Frameworks */,
+				78A4E0B421584961001346E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KJVWatch Extension";
+			productName = "KJVWatch Extension";
+			productReference = 78A4E0B621584961001346E3 /* KJVWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		78F19E7B2158B93300C256E8 /* KJVToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F19E8C2158B93300C256E8 /* Build configuration list for PBXNativeTarget "KJVToday" */;
+			buildPhases = (
+				78F19E782158B93300C256E8 /* Sources */,
+				78F19E792158B93300C256E8 /* Frameworks */,
+				78F19E7A2158B93300C256E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJVToday;
+			productName = KJVToday;
+			productReference = 78F19E7C2158B93300C256E8 /* KJVToday.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,12 +393,24 @@
 		78819AFE1F93FFFD008B6811 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = jth4;
 				TargetAttributes = {
 					78819B051F93FFFD008B6811 = {
 						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					78A4E0A921584960001346E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					78A4E0B521584961001346E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					78F19E7B2158B93300C256E8 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -212,6 +429,9 @@
 			projectRoot = "";
 			targets = (
 				78819B051F93FFFD008B6811 /* KJVQuotes */,
+				78A4E0A921584960001346E3 /* KJVWatch */,
+				78A4E0B521584961001346E3 /* KJVWatch Extension */,
+				78F19E7B2158B93300C256E8 /* KJVToday */,
 			);
 		};
 /* End PBXProject section */
@@ -224,8 +444,32 @@
 				78819B141F93FFFD008B6811 /* LaunchScreen.storyboard in Resources */,
 				78819B111F93FFFD008B6811 /* Assets.xcassets in Resources */,
 				78397B81206D145800621B28 /* LoadingView.xib in Resources */,
-				78E6C7952045CBCF006A2ECC /* bg02.jpg in Resources */,
 				78819B0F1F93FFFD008B6811 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A4E0A821584960001346E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A4E0B021584961001346E3 /* Assets.xcassets in Resources */,
+				78A4E0AE21584961001346E3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A4E0B421584961001346E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A4E0C221584961001346E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F19E7A2158B93300C256E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F19E852158B93300C256E8 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,8 +489,8 @@
 				78397B8E206D145800621B28 /* UnwindSegue.swift in Sources */,
 				78397B80206D145800621B28 /* LoadingView.swift in Sources */,
 				78397B89206D145800621B28 /* SpringTextField.swift in Sources */,
+				78B86C9A2158A90300859883 /* QuoteProvider.swift in Sources */,
 				78397B84206D145800621B28 /* Spring.swift in Sources */,
-				78819B1C1F940026008B6811 /* QuoteProvider.swift in Sources */,
 				78397B83206D145800621B28 /* SoundPlayer.swift in Sources */,
 				78397B7C206D145800621B28 /* DesignableView.swift in Sources */,
 				78397B79206D145800621B28 /* DesignableTabBarController.swift in Sources */,
@@ -269,7 +513,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78A4E0B221584961001346E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A4E0C021584961001346E3 /* NotificationController.swift in Sources */,
+				78A4E0BE21584961001346E3 /* ExtensionDelegate.swift in Sources */,
+				78A4E0BC21584961001346E3 /* InterfaceController.swift in Sources */,
+				78C926242158AF3C00736222 /* QuoteProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F19E782158B93300C256E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F19E822158B93300C256E8 /* TodayViewController.swift in Sources */,
+				78F19E8E2158B95100C256E8 /* QuoteProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78A4E0B921584961001346E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A4E0B521584961001346E3 /* KJVWatch Extension */;
+			targetProxy = 78A4E0B821584961001346E3 /* PBXContainerItemProxy */;
+		};
+		78A4E0C621584961001346E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A4E0A921584960001346E3 /* KJVWatch */;
+			targetProxy = 78A4E0C521584961001346E3 /* PBXContainerItemProxy */;
+		};
+		78F19E882158B93300C256E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F19E7B2158B93300C256E8 /* KJVToday */;
+			targetProxy = 78F19E872158B93300C256E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		78819B0D1F93FFFD008B6811 /* Main.storyboard */ = {
@@ -286,6 +568,22 @@
 				78819B131F93FFFD008B6811 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		78A4E0AC21584961001346E3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A4E0AD21584961001346E3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		78F19E832158B93300C256E8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F19E842158B93300C256E8 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -401,6 +699,7 @@
 		78819B191F93FFFD008B6811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +719,7 @@
 		78819B1A1F93FFFD008B6811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -433,6 +733,112 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		78A4E0C821584961001346E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				IBSC_MODULE = KJVWatch_Extension;
+				INFOPLIST_FILE = KJVWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		78A4E0C921584961001346E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				IBSC_MODULE = KJVWatch_Extension;
+				INFOPLIST_FILE = KJVWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		78A4E0CA21584961001346E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				INFOPLIST_FILE = "KJVWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		78A4E0CB21584961001346E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				INFOPLIST_FILE = "KJVWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		78F19E8A2158B93300C256E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				INFOPLIST_FILE = KJVToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.KJVToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F19E8B2158B93300C256E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CNKXWY3YPB;
+				INFOPLIST_FILE = KJVToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jth4.KJVQuotes.KJVToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -453,6 +859,33 @@
 			buildConfigurations = (
 				78819B191F93FFFD008B6811 /* Debug */,
 				78819B1A1F93FFFD008B6811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A4E0CC21584961001346E3 /* Build configuration list for PBXNativeTarget "KJVWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A4E0CA21584961001346E3 /* Debug */,
+				78A4E0CB21584961001346E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A4E0CE21584961001346E3 /* Build configuration list for PBXNativeTarget "KJVWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A4E0C821584961001346E3 /* Debug */,
+				78A4E0C921584961001346E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F19E8C2158B93300C256E8 /* Build configuration list for PBXNativeTarget "KJVToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F19E8A2158B93300C256E8 /* Debug */,
+				78F19E8B2158B93300C256E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
